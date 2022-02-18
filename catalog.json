@@ -1,0 +1,23 @@
+{
+  "services": [
+    {
+      "name": "demoDB",
+      "id": "service-1-id",
+      "description": "In-memory DB for demos",
+      "bindable": true,
+      "plans": [
+        {
+          "id": "plan-1-id",
+          "name": "free",
+          "description": "Totally free usage"
+        },
+        {
+          "id": "plan-2-id",
+          "name": "Paid",
+          "description": "You can't afford me "
+        }
+      ]
+    }
+  ]
+}
+
